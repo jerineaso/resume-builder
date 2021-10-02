@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li class="nav-links"><a href="#"><i class="fas fa-bars"></i></a></li>
+                <li class="nav-links"><a href="#">Resume Builder</a></li>
+                <li class="nav-links"><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="heading">
+                <h2>Personal Details</h2>
+            </div>
+            <form action="" class="form-data">
+                <div class="left">
+                    <div class="field">
+                        <label for="">First Name : </label>
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required class="input-data">
+                    </div>
+                    <div class="field">
+                        <label for="">Last Name : </label>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required class="input-data">
+                    </div>
+                    <div class="field">
+                        <label for="">Email : </label>
+                        <input type="email" name="email" id="email" placeholder="Email" required class="input-data">
+                        <div class="suggestions"></div>
+                    </div>
+                    <div class="field">
+                        <label for="">Phone Number : </label>
+                        <input type="number" name="phone" id="phone" placeholder="Phone Number" class="input-data">
+                    </div>
+                    <div class="field">
+                        <label for="">Your Website : </label>
+                        <input type="text" name="website" id="website" placeholder="Website URL" class="input-data">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="field">
+                        <label for="">Github URL : </label>
+                        <input type="text" name="github" id="github" placeholder="Github URL" class="input-data">
+                    </div>
+                    <div class="field">
+                        <label for="">LinkedIn URL : </label>
+                        <input type="text" name="linkedin" id="linkedin" placeholder="LinkedIn" class="input-data">
+                    </div>
+                    <div class="field">
+                        <label for="">Twitter URL : </label>
+                        <input type="text" name="twitter" id="twitter" placeholder="Twitter" class="input-data">
+                    </div>
+                    <div class="field">
+                        <label for="">Facebook URL : </label>
+                        <input type="text" name="facebook" id="facebook" placeholder="Facebook URL" class="input-data">
+                    </div>
+                    <div class="field">
+                        <label for="">Instagram URL : </label>
+                        <input type="text" name="instagram" id="instagram" placeholder="Instagram URL" class="input-data">
+                    </div>
+                </div>
+            </form>
+            <div class="buttons">
+                <input type="button" value="Back" disabled class="btn">
+                <input type="button" value="Next" class="btn nextbtn">
+            </div>
+        </div>
+    </main>
+    <!-- Scripts -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
